@@ -1,0 +1,18 @@
+/* background color rgb(53, 51, 51);  */
+/* text whitesmoke or  rgb(245, 245, 245)*/
+/* bordering objects such as navbar rgb(128, 129, 143) */
+* {
+ background-color:rgb(53, 51, 51);
+ color: whitesmoke !important;
+
+ 
+}
+.navbar{
+background-color: rgb(128, 129, 143) !important;
+}
+.navbar-toggler{
+background-color: rgb(128, 129, 143)!important;
+}
+.navbar-toggler-icon{
+background-color: rgb(128, 129, 143) !important;
+}
