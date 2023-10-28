@@ -45,13 +45,19 @@ text-align: center;
     border-style: solid;
     flex-direction: column;
     width: auto;
-    margin-top: 45%
+    margin-top: 65%
 }
 .headed{
    text-align: center; 
 }
 .paragraph{
     font-size: 24px;
+}
+.footerimg{
+justify-content: center;
+margin-left: 40%;
+margin-bottom: 10px;
+
 }
 
 @media all and (max-width: 900px){
