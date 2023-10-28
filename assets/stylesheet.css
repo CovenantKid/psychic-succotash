@@ -2,7 +2,7 @@
 /* text whitesmoke or  rgb(245, 245, 245)*/
 /* bordering objects such as navbar rgb(128, 129, 143) */
 * {
- background-color:rgb(53, 51, 51);
+ background-color:rgb(53, 51, 51) !important;
  color: whitesmoke !important;
  font-family: 'Martian Mono', monospace;
  font-size: 16px;
@@ -11,22 +11,35 @@
 .navbar{
 background-color: rgb(128, 129, 143) !important;
 }
+
 .navbar-toggler{
 background-color: rgb(128, 129, 143)!important;
 }
+
 .navbar-toggler-icon{
 background-color: rgb(128, 129, 143) !important;
 }
+
 .introduction{
-padding-top: 20px;
+padding-top: 2%;
 color:whitesmoke;
 text-align: center;
 }
-.carousel{
-    max-height: 50%;
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 1%;
+  }
+
+.displayed{
+    border: 3%;
+    border-style: groove;
+    border-color: rgb(128, 129, 143);
 }
 
-@media (max-width: 1000px){
+
+@media all and (max-width: 900px){
     * {
         font-size: 12px;
         
