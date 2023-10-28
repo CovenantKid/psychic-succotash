@@ -8,6 +8,7 @@
  font-size: 16px;
  
 }
+/* navbar coloring from 11 to 25 to fit rest of pages coloring */
 .navbar{
 background-color: rgb(128, 129, 143) !important;
 }
