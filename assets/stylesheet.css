@@ -19,6 +19,9 @@ background-color: rgb(128, 129, 143)!important;
 .navbar-toggler-icon{
 background-color: rgb(128, 129, 143) !important;
 }
+.center{
+    justify-content: center;
+}
 
 .introduction{
 padding-top: 2%;
@@ -37,7 +40,19 @@ text-align: center;
     border-style: groove;
     border-color: rgb(128, 129, 143);
 }
-
+.about{
+    display: flex;
+    border-style: solid;
+    flex-direction: column;
+    width: auto;
+    margin-top: 45%
+}
+.headed{
+   text-align: center; 
+}
+.paragraph{
+    font-size: 24px;
+}
 
 @media all and (max-width: 900px){
     * {
