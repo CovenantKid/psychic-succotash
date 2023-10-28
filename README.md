@@ -13,6 +13,6 @@ https://getbootstrap.com/docs/5.3/getting-started/introduction/
 https://covenantkid.github.io/psychic-succotash/
 
 # page preview:
-
+![Page preview](assets/images/portfolio.png)
 
 
